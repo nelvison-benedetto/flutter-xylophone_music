@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart'; //import Material Design
 import 'dart:math';
+import 'package:english_words/english_words.dart';
 
 void main(){ runApp( MainPage());}
 class MainPage extends StatefulWidget{
@@ -13,7 +14,7 @@ class _MainPageState extends State<MainPage>{
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(),
-        body: SafeArea( child: Text('Hiii')),
+        body: SafeArea( child: Text('Hi')),
       ),
     );
   }
